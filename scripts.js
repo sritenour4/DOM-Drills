@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let h1 = document.createElement('h1');
     h1.className = 'h1';
-    let text = document.createTextNode('This is an h1.');
-    h1.appendChild(text);
+    let h1text = document.createTextNode('This is an h1.');
+    h1.appendChild(h1text);
     div.appendChild(h1);
 
     let h2 = document.createElement('h2');
@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
 
         li.addEventListener('dblclick', function () {
-            this.parentNode.removeChild(this);
+            this.remove();
         });
     };
 
