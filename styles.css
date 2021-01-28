@@ -1,0 +1,26 @@
+.h1 {
+    color: red;
+}
+.h2 {
+    color:orange;
+}
+.h3 {
+    color: yellow;
+}
+.h4 {
+    color: green;
+}
+.h5 {
+    color: blue
+}
+.h6 {
+    color: purple;
+}
+
+.listButton {
+    background-color: blue;
+    color: white;
+    padding: 5px 12px;
+    font-size: 1em;
+    border-radius: 12px;
+}
